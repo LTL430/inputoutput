@@ -4,12 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a;
-		int b;
-		int c;
+		double a;
+		double b;
+		double c;
 		Scanner sc = new Scanner(System.in);
-		a = sc.nextInt();
-		b=sc.nextInt();
+		a = sc.nextDouble();
+		b=sc.nextDouble();
 		c=a+b;
 		System.out.print(c);
 	}
